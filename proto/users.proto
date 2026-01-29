@@ -6,7 +6,7 @@ service UsersService {
     rpc GetMe (GetMeRequest) returns (GetMeResponse);
 
     rpc CreateUser (CreateUserRequest) returns (CreateUserResponse);
-    rpc PatchUser (PatchUserRequest) returns (PatchUserResponse)
+    rpc PatchUser (PatchUserRequest) returns (PatchUserResponse);
 }
 
 message GetMeRequest {
